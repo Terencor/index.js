@@ -7,7 +7,7 @@ bot.on("ready", function () {
     console.log("Mon BOT est Connecté");
 })
 
-bot.login(process.env.TOKEN);
+bot.login(process.env.BOT_TOKEN);
 
 bot.on('message', message => {
     if (message.content === 'salut le sushi') {
